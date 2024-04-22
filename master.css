@@ -1,0 +1,242 @@
+/* navbar  */
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    padding: 5px 20px ;
+}
+ 
+  .navbar-collapse {
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
+  .collapse {
+      padding:2px  20px 30px ;
+  }
+  
+  .collapse a, .active {
+      transition: 1s ease linear;
+      padding: 10px    ;
+  }
+  
+  .collapse a:hover, .active:hover {
+      background-color:  #33333347;
+      border-radius: 5px;
+      color: #fff;
+      padding: 10px ;
+  }
+ 
+/* ---------------- */
+
+
+
+/* strat home  */
+.home{
+    padding: 160px 0 0 0    ;
+    background-image: url(images/pngtree-dragon-standing-on-fire-image_2574477.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width: 100%;
+    height: 90vh ;
+    
+}
+.home .start h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px ;
+    color: white;
+}
+
+
+/* end home  */
+
+
+/* strat first sections  */
+ 
+.sections h1{
+    margin: 1px 0 20px  ;
+    color: goldenrod;
+    font-family: cursive;
+    font-size: 28px ;
+    padding: 20px 10px 5px  ;
+}
+.sections p{
+    line-height: 26px ;
+    letter-spacing: 1px;
+    color: white;
+    padding:  10px  10px  40px 10px  ;
+    
+}
+
+/* end  first sections  */
+
+
+
+
+
+/* strat two sections */
+
+.twosections .card{
+    margin: 10px ;
+}
+.twosections .cardHeroses img {
+    opacity: 0.8;  
+    transition: opacity 0.3s ease;  
+}
+.twosections .cardHeroses img:hover {
+    opacity: 1; 
+}
+/* end  two sections */
+
+
+
+
+
+
+
+
+/*  start three sections  */
+.threesections {
+    width: 100%;
+    padding: 30px 10px 30px;
+    overflow: hidden;
+    opacity: 1;
+  }
+  
+  .threesections h1 {
+    padding: 30px 10px;
+    color: goldenrod;
+    font-family: cursive;
+  }
+  
+  .youtube-icon {
+    padding: 20px;
+    border-radius: 50%;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 50px ;
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 100px;
+    height: 100px;
+    z-index: 99;
+    position: absolute;
+  }
+  
+  .swiper-button-next {
+    right: 0;
+  }
+  
+  .swiper-button-prev {
+    left: 0;
+  }
+  
+  .swiper-slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  .swiper-slide:not(.active) {
+    display: none;
+    
+  }
+  .swiper-slide img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+/*  end three sections  */
+
+
+
+
+
+/* /* start four sections  */
+.foursections {
+    background-color: #181818;
+    padding:  50px 10px ;
+    color: white;
+}
+.foursections h1{
+    color: goldenrod;
+    font-family: cursive;
+    padding: 10px ;
+}
+.foursections h2{
+    font-size: 25px ;
+}
+.foursections h3{
+    font-size: 18px ;
+}
+.foursections .card{
+    margin: 10px ;
+    transition: 0.3s ease;
+}
+.foursections .card:hover {
+    box-shadow: 2px 4px 72px 4px rgba(124, 18, 18, 0.742);
+  }
+  .foursections a{
+    padding: 10px ;
+  }
+  .foursections i{
+
+    font-size: 20px ;
+    margin: 0 6px  ;
+
+  }
+  
+/* /* end  four sections  */
+
+
+
+
+
+
+/* strat five sections */
+.fivesections {
+  padding:  20px 10px 40px ;
+}
+.fivesections h1{
+  color: goldenrod;
+  font-family: cursive;
+  font-size: 27px;
+}
+.fivesections .card{
+  margin: 10px ;
+}
+
+/* end  five sections */
+
+
+
+
+
+/* strat six sections  */
+.sixsections {
+  padding:  40px 10px;
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+}
+.sixsections h1{
+  color: goldenrod;
+  font-family: cursive;
+  padding: 10px 0 ;
+}
+.sixsections p{
+  font-weight: 400;
+  padding: 2px 10px ;
+}
+/* end  six sections */
