@@ -39,7 +39,7 @@
     background-image: url(images/pngtree-dragon-standing-on-fire-image_2574477.jpg);
     background-repeat: no-repeat;
     background-size:  cover;
-    width: 100%;
+    width: 101%;
     height: 90vh ;
     
 }
@@ -62,7 +62,7 @@
     color: goldenrod;
     font-family: cursive;
     font-size: 28px ;
-    padding: 20px 10px 5px  ;
+    padding: 20px   5px  ;
 }
 .sections p{
     line-height: 26px ;
