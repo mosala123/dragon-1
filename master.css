@@ -62,13 +62,13 @@ cover/* navbar  */
     color: goldenrod;
     font-family: cursive;
     font-size: 28px ;
-    padding: 20px   5px  ;
+    padding: 20px  0  ;
 }
 .sections p{
     line-height: 26px ;
     letter-spacing: 1px;
     color: white;
-    padding:  10px  10px  40px 10px  ;
+    padding:  10px 0  40px 0  ;
     
 }
 
